@@ -2,7 +2,7 @@
 
 namespace Naxam.Controls.Platform.Droid.Utils
 {
-    internal static class MeasureSpecFactory
+    static class MeasureSpecFactory
     {
         public static int GetSize(int measureSpec)
         {

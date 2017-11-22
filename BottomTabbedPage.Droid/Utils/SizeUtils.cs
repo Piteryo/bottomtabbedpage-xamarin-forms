@@ -12,12 +12,13 @@ namespace Naxam.Controls.Platform.Droid.Utils
     using RelativeLayout = Android.Widget.RelativeLayout;
     using Platform = Xamarin.Forms.Platform.Android.Platform;
 
-    internal static class BottomTabbedRendererUtils
+    public static class BottomTabbedRendererUtils
     {
         public static Rectangle CreateRect(this Context context, int width, int height)
         {
+            var k = 0;
             return new Rectangle(
-                    0, 0,
+                    0, k,
                     context.FromPixels(width),
                     context.FromPixels(height)
                 );

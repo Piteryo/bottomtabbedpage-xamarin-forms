@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace Naxam.Controls.Platform.Droid.Utils
 {
-    internal static class ResourceManagerEx
+    static class ResourceManagerEx
     {
         internal static int IdFromTitle(string title, Type type)
         {
